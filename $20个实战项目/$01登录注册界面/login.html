@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>登录</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <script src="loginscript.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <form class="form" id="form" >
+        <h2>登录</h2>
+        <div class="form-control ">
+            <label for="name">用户名：</label>
+            <input id="name" type="text" placeholder="请输入用户名">
+            <small>错误提示</small>
+        </div>
+
+        <div class="form-control">
+            <label for="password">密码：</label>
+            <input id="password" type="password" placeholder="请输入密码">
+            <small>错误提示</small>
+        </div>
+
+        <!--        表单中的button标签默认类型是submit-->
+        <button>确认</button>
+    </form>
+    <a href="register.html">立即注册</a>
+</div>
+</body>
+</html>

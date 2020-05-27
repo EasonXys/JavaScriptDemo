@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>注册</title>
+    <link rel="stylesheet" href="registerstyle.css">
+    <script src="registerscript.js" defer></script>
+<!--    <script src="script.js" defer></script>-->
+</head>
+<body>
+<div class="container">
+    <form class="form" id="form" >
+        <h2>注册</h2>
+        <div class="form-control ">
+            <label for="name">用户名：</label>
+            <input id="name" type="text" name="name" placeholder="请输入用户名">
+            <small>错误提示</small>
+        </div>
+        <div class="form-control ">
+            <label for="email">邮箱：</label>
+            <input id="email" type="text" name="email" placeholder="请输入邮箱">
+            <small>错误提示</small>
+        </div>
+        <div class="form-control">
+            <label for="password">密码：</label>
+            <input id="password" type="password" name="password" placeholder="请输入密码">
+            <small>错误提示</small>
+        </div>
+        <div class="form-control">
+            <label for="password2">确认密码：</label>
+            <input id="password2" type="password" name="password2" placeholder="请再次确认密码">
+            <small>错误提示</small>
+        </div>
+<!--        表单中的button标签默认类型是submit-->
+        <button>确认</button>
+    </form>
+    <a href="login.html">已有账户</a>
+</div>
+</body>
+</html>
